@@ -52,9 +52,9 @@ $('.explore_slider').slick({
   dots: true,
   infinite: true,
   arrows: false,
-  autoplay: true,
+  autoplay: false,
   centerMode: true,
-  centerPadding: '0',
+  centerPadding: '2000',
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -132,5 +132,5 @@ $('.testimonial_slider').slick({
 // slick slider js for testimonial end
 
 // slick slider js for testimonial start
-var mixer = mixitup('.container');
+var mixer = mixitup('.explore_slider');
 // slick slider js for testimonial end

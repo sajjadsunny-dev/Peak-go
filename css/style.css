@@ -228,6 +228,12 @@ h1,h2,h3,h4,h5,h6,p{
     background: var(--color_g);
     border-radius: 10px;
     color: #fff;
+    transition: all .3s linear;
+}
+
+#banner_part .container .banner_text .filter_bar .search:hover{
+    background: #d7fff4;
+    color: var(--color_g);
 }
 
 #banner_part .container .banner_text .banner_img{
@@ -856,11 +862,6 @@ h1,h2,h3,h4,h5,h6,p{
     width: 485px;
 }
 
-#explore_part .options {
-    display: flex;
-    justify-content: space-between;
-}
-
 #explore_part .options .option {
 	padding: 15px 20px;
 	background: #F3F3F3;
@@ -868,15 +869,12 @@ h1,h2,h3,h4,h5,h6,p{
 	color: #616161;
 	transition: all .4s linear;
 	margin-right: 20px;
-}
-
-#explore_part .options .option p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
-    margin: 0;
+    border: 0;
 }
 
 #explore_part .options .option:hover{
@@ -1006,6 +1004,7 @@ h1,h2,h3,h4,h5,h6,p{
     transform: translateX(-50%);
     margin: 0;
     display: flex;
+    justify-content: center;
 }
 
 
